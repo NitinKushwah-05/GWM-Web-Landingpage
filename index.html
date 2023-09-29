@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sample website</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" media="screen and (max-width:1032px)" href="phone.css">
+  
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+        <nav id="navbar">
+            <div id="logo">
+                <img src="logo.png" alt="image not available">
+            </div>
+            <ul>
+                <li class="item"><a href="#home" >Home</a></li>
+                <li class="item"><a href="#service-container">Service</a></li>
+                <li class="item"><a href="#Contact">Contact</a></li>
+                <li class="item"><a href="#clients-box">Clients</a></li>
+            </ul>
+        </nav>
+    <section id="home">
+        <h1>Welcome to MyMealOnline</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id enim ea delectus! Odio itaque repellat harum optio hic.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, ipsam.</p>
+        <button class="butn" id="btn">Order Now</button>
+    </section>
+       <section id="service-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+        <div class="box">
+            <img src="1.png" alt="no pic">
+            <h2 class="h-secondary center">Food Catering</h2>
+            <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nemo beatae officia repellat eum, omnis laboriosam, assumenda rem totam dignissimos perferendis sed quos, minima molestiae?</p>
+        </div>
+
+        <div class="box">
+            <img src="3.png" alt="no pic">
+            <h2 class="h-secondary center">Fast Delivery</h2>
+            <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nemo beatae officia repellat eum, omnis laboriosam, assumenda rem totam dignissimos perferendis sed quos, minima molestiae?</p>
+        </div>
+
+        <div class="box">
+            <img src="2.png" alt="no pic">
+            <h2 class="h-secondary center">Bulk Ordering</h2>
+            <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nemo beatae officia repellat eum, omnis laboriosam, assumenda rem totam dignissimos perferendis sed quos, minima molestiae?</p>
+        </div>
+        </div>
+       </section>
+       <section id="clients-box">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div class="clients">
+            <div class="client-items">
+                <img src="logo1.png" alt="Our Client">
+            </div>
+            <div class="client-items">
+                <img src="logo2.png" alt="Our Client">
+            </div>
+            <div class="client-items">
+                <img src="logo3.png" alt="Our Client">
+            </div>
+            <div class="client-items">
+                <img src="logo4.png" alt="Our Client">
+            </div>
+        </div>
+       </section>
+       <section id="Contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div class="contact-box">
+            <form action="">
+                <div class="form-items"><label for="Name">Name</label>
+                <input type="text" name="Name" id="Name" placeholder="Enter your name"></div>
+                <div class="form-items">
+                    <label for="Email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your Email">
+                </div>
+                <div class="form-items">
+                    <label for="phone number">Phone Number</label>
+                    <input type="number" name="phone" id="phone number" placeholder="Enter your phone number">
+                </div>
+                <div class="form-items">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"
+                    rows="7"
+                    cols="60" placeholder="Enter your Message"></textarea>
+                </div>
+                <div class="form-items" >
+                    <button id="submit-btn">Submit Now</button>
+                </div>
+            </form>
+            
+        </div>
+       </section>
+       <footer>
+        <p>Copyright &copy; all rights reserved for MyMealOnline.com</p>
+       </footer>
+       <script src="script.js"></script>
+</body>
+</html>
